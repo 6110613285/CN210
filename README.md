@@ -1,4 +1,4 @@
-# CN210
+# รายงานวิชา CN210
 * [งานครั้งที่ 1](https://drive.google.com/open?id=1JahkkOSXNiXsl_ZzBNgzGbNgR5M7mhUK)
 
 * [งานครั้งที่ 2](https://drive.google.com/file/d/1EP2tqjhE2Gw8tjX2D7x8oRSfundzdQIQ/view?usp=drivesdk)
