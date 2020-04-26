@@ -24,11 +24,11 @@
   - MIPS มีคำสั่ง 3 คำสั่งคือ
      ~~~
      1. R-format
-     ![image1]( https://drive.google.com/drive/u/0/folders/1w0vSdX_HcPCu6YNymyqS10r3wl_KZTS2 )
+      ![image4]( https://drive.google.com/drive/u/0/folders/1w0vSdX_HcPCu6YNymyqS10r3wl_KZTS2 )
      2. I-format
-     ![image2](  )
+      ![image2](  )
      3. J-format
-     ![image3](  )
+      ![image3](  )
      ~~~
 
 #### CISC & RISC
