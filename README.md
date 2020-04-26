@@ -24,12 +24,12 @@
   - MIPS มีคำสั่ง 3 คำสั่งคือ
      ~~~
      1. R-format
-      ![image4](http://drive.google.com/uc?export=view&id=1678A7Wwf2QlCdxJtLdinHwJywnbpht2L)
+   ![image4](http://drive.google.com/uc?export=view&id=1678A7Wwf2QlCdxJtLdinHwJywnbpht2L)
      2. I-format
       ![image2](  )
      3. J-format
       ![image3](  )
-     ~~~
+     
 
 #### CISC & RISC
   - CISC ย่อมาจาก Complex instruction set computer : เป็นคอมพิวเตอร์ที่มีชุดคำสั่งซับซ้อน
