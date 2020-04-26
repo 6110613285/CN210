@@ -22,13 +22,16 @@
    
 #### MIPS 
   - MIPS มีคำสั่ง 3 คำสั่งคือ
-     ~~~
-     1. R-format
-   ![image4](http://drive.google.com/uc?export=view&id=1678A7Wwf2QlCdxJtLdinHwJywnbpht2L)
-     2. I-format
-      ![image2](  )
-     3. J-format
-      ![image3](  )
+     * R-format
+     
+     ![image](http://drive.google.com/uc?export=view&id=1678A7Wwf2QlCdxJtLdinHwJywnbpht2L)
+     
+     * I-format
+      
+      ![image](http://drive.google.com/uc?export=view&id=10QAr0VK5gOQQdTMyjAWJwzDIG7n6t9ms)
+     
+     * J-format
+   ![image](  )
      
 
 #### CISC & RISC
@@ -48,12 +51,12 @@
 #### Single-cycle
    Single-cycle processor : เป็นคอมพิวเตอร์ที่มีการประมวลผลคำสั่งแต่ละคำสั่งจบใน 1 รอบ หรือ 1 Clock cycle ซึ่งทุกคำสั่งจะใช้เวลาในการประมวลผลเท่ากัน
     
-![image4](  )
+![image](http://drive.google.com/uc?export=view&id=1GIYTId6ZYovkSXrQ31STBv3uLl52b8g9)
 
 #### Multi-cycle
    Multi-cycle processor  : เป็นคอมพิวเตอร์ที่มีการประมวลผลคำสั่งแต่ละคำสั่งไม่ได้จบใน 1 รอบ หรือ 1 Clock cycle ซึ่งแต่ละคำสั่งใช้เวลาในการประมวลผล หรือ Clock cycle ไม่เท่ากัน 
    
-![image4](  )
+![image](http://drive.google.com/uc?export=view&id=19A9x3-tvJNARLM_pqO3fG_Zm3eLgdx-S)
 
 #### Pipe lining
  - เป็นการลดระยะเวลาที่ใช้ในการทำงานลงโดยเมื่อมีอุปกรณ์ที่ว่างก้จะนำคำสั่งต่อไปมาทำงานทันที
