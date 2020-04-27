@@ -62,8 +62,8 @@
  - เป็นการลดระยะเวลาที่ใช้ในการทำงานลงโดยเมื่อมีอุปกรณ์ที่ว่างก้จะนำคำสั่งต่อไปมาทำงานทันที
 
 ## Homework
-* [งานครั้งที่ 1](https://drive.google.com/open?id=1JahkkOSXNiXsl_ZzBNgzGbNgR5M7mhUK)
-
+#### การบ้านครั่งที่1
+* [งานครั้งที่ 1](https://drive.google.com/open?id=1JahkkOSXNiXsl_ZzBNgzGbNgR5M7mhUK) เป็นการอธิบายคำสั่ง J-format หรือคำสั่ง jump โดย คำสั่งนี้จะเป็นการสั่งให้ CPU ข้ามไปทำคำสั่งในอีก address ที่เป็นเป้าหมายของคำสั่ง
 * [งานครั้งที่ 2](https://drive.google.com/file/d/1EP2tqjhE2Gw8tjX2D7x8oRSfundzdQIQ/view?usp=drivesdk)
 
 * [งานครั้งที่ 3](https://youtu.be/K4fZwQTjtdc)
