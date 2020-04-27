@@ -5,17 +5,15 @@
 
 #### Computer Organization
    - ส่วนประกอบของ Computer 
-     ~~~~ 
      1. CPU (Central Processing Unit) 
      2. I/O (Input,Output) 
      3. Main Memory
-     ~~~~ 
+    
    - ส่วนประกอบของ CPU      
-     ~~~
      1. ALU (Arithmetic Logic Unit) 
      2. Control Unit 
      3. Register
-     ~~~
+     
 #### Von Neuman & Harvard Architectures
    - Von Neuman Architecture : มี Memory ที่เก็บทั้ง Instruction และ Data อยู่ภายใน Memory เดียวกันทำให้มีพื้นที่ในการเก็บข้อมูลมาก
    - Harvard Architecture    : มี Memory ที่เก็บ Instruction และ Data แยกกัน ไม่ได้อยู่ภายใน Memory เดียวกันทำให้มีประสิทธิภาพในการรับส่งข้อมูลที่รวดเร็ว
