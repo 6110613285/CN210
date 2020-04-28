@@ -22,14 +22,14 @@
   - MIPS มีคำสั่ง 3 คำสั่งคือ
      * R-format
      
-     ![image](http://drive.google.com/uc?export=view&id=1678A7Wwf2QlCdxJtLdinHwJywnbpht2L)
+     ![image](http://4.bp.blogspot.com/-Ui0mt4h44s8/Up2nvk3iU3I/AAAAAAAAAPY/sF4haVYx6BE/s1600/1.png)
      
      * I-format
       
-      ![image](http://drive.google.com/uc?export=view&id=10QAr0VK5gOQQdTMyjAWJwzDIG7n6t9ms)
+      ![image](http://4.bp.blogspot.com/-SrDyDKDbxJ8/Up2oHmwtNEI/AAAAAAAAAPg/9i686ypFdCg/s1600/3.png)
      
      * J-format
-   ![image](  )
+   ![image](http://1.bp.blogspot.com/-MqcOl_V2rSw/Up2okUK7aNI/AAAAAAAAAPo/R5iPs60F8Y0/s1600/2.png)
      
 
 #### CISC & RISC
@@ -61,15 +61,17 @@
 
 ## Homework
 #### การบ้านครั่งที่1
-* [งานครั้งที่ 1](https://drive.google.com/open?id=1JahkkOSXNiXsl_ZzBNgzGbNgR5M7mhUK) เป็นการอธิบายคำสั่ง J-format หรือคำสั่ง jump โดย คำสั่งนี้จะเป็นการสั่งให้ CPU ข้ามไปทำคำสั่งในอีก address ที่เป็นเป้าหมายของคำสั่ง
-* [งานครั้งที่ 2](https://drive.google.com/file/d/1EP2tqjhE2Gw8tjX2D7x8oRSfundzdQIQ/view?usp=drivesdk)
+* [งานครั้งที่ 1](https://drive.google.com/open?id=1JahkkOSXNiXsl_ZzBNgzGbNgR5M7mhUK) เป็นการอธิบายคำสั่ง J-format หรือคำสั่ง jump โดย คำสั่งนี้จะเป็นการสั่งให้ CPU ข้ามไปทำคำสั่งในอีก address ที่เป็นเป้าหมายของคำสั่ง มี 2 ส่วน คือ 
+  1. **Op Code (Operation Code)** : มีความยาว *6 bits* และ สำหรับ J-Format จะใช้ Op Code คือ `000010`
+  2. **Address (Jump Target Address)** : มีความยาว *26 bits* 
+* [งานครั้งที่ 2](https://drive.google.com/file/d/1EP2tqjhE2Gw8tjX2D7x8oRSfundzdQIQ/view?usp=drivesdk) เป็นการอธิบายตัวอย่างการทำงานของระบบคอมพิวเตอร์ในภาษาขั้นสูง โดยภายในคลิปจะพูดถึงการทำงานของคำสั่งต่างๆตั้งแต่การย้ายตำแหน่งในการทำงาน(jump) การดึงข้มูลในชุดคำสั่ง(lw) การเก็บข้อมูล(sw) และการคำนวณคำสั่ง add ในรูปแบบของbinary
 
-* [งานครั้งที่ 3](https://youtu.be/K4fZwQTjtdc)
+* [งานครั้งที่ 3](https://youtu.be/K4fZwQTjtdc) เป็นการอธิบายความแตกต่างระหว่างการทำงานแบบ single cycle และ multi cycle โดยเนื้อหาภายในคลิปจะเป็นการอธิบายการทำงานของ Single cycle และ Multi cycle เพื่อเปรียบเทียบว่าการทำงานแบบ Single cycle และ Multi cycleมีความแตกต่างกันยังไง
   
-* [งานครั้งที่ 4](https://youtu.be/c3uKJYdjnJM)
+* [งานครั้งที่ 4](https://youtu.be/c3uKJYdjnJM) อธิบายตัวอย่างการทำงานของคำสั่ง lw ในการทำงานแบบ multi cycle โดยเนื้อหาภายในคลิปจะเป็นการอธิบายขั้นตอนต่างๆในการทำงานของคำสั่ง lw ว่าแต่ละขั้นตอนในการทำงานในแบบ Multi cycle มีการทำงานยังไง ซึ่งจะมีการแบ่งขั้นตอนต่างๆเป็น T1-T5
 
-* [งานครั้งที่ 5](https://youtu.be/gJ6TK7mZDMQ)
+* [งานครั้งที่ 5](https://youtu.be/gJ6TK7mZDMQ) อธิบายการทำงานของคำสั่ง beq ในการทำงานแบบ multi cycle โดยเนื้อหาภายในคลิปจะเป็นการอธิบายขั้นตอนต่างๆในการทำงานของคำสั่ง beq ว่าแต่ละขั้นตอนในการทำงานแบบ Multi cycle มีการทำงานยังไง ซึ่งจะมีการแบ่งขั้นตอนต่างๆ เป็น T1-T3
 
-* [งานครั้งที่ 6](https://youtu.be/xfQPSRIEDAk)
+* [งานครั้งที่ 6](https://youtu.be/xfQPSRIEDAk) อธิบายวิธีในการทำงานของคำสั่ง r-type ใน multi cycle โดยเนื้อหาภายในคลิปจะเป็นการอธิบายขั้นตอนต่างๆในการทำงานของคำสั่งในรูปแบบ R-format ว่าแต่ละขั้นตอนในการทำงานแบบ Multi cycle มีการทำงานยังไง ซึ่งจะมีการแบ่งขั้นตอนต่างๆ ออกเป็น T1-T4 และจะแสดงการทำงานในรูปแบบของสัญญาณ
 
-* [งานครั้งที่ 7]
+* [งานครั้งที่ 7]()การทำงานแบบ pipelining โดยเนื้อหาภายในคลิปจะเป็นการอธิบายความแตกต่างระหว่างการทำงานของ Single ,Multi cycle และ pipelining เพื่อจะได้เห็นว่าการทำงานแบบ pipelining นั้นมีความเร็วมากกว่าแบบ Single และ Multi cycle ยังไง และภายในคลิปก้จะมีการพูดถึงข้อเสียของการทำงานแบบ pipelining อยู่ช่วงท้ายคลิป
